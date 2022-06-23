@@ -1,5 +1,5 @@
 ## Stock-analysis
-Ttock analysis with VBA Using financial data analysis
+Stock analysis with VBA Using financial data analysis
 
 #### Overview of Project
 ## Purpose
