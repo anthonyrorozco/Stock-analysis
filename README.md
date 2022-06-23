@@ -3,7 +3,7 @@ Green Energy stock analysis with VBA Using financial data analysis
 
 #### Overview of Project
 ## Purpose
-Refactoring a Microsoft Excel VBA code to gather specific stock information in 2017 and 2018 and assess whether the stocks are worthwhile to invest in was the goal of this project.This procedure was earlier performed in a similar fashion; however, the purpose for this was to improve the original code's efficiency. Furthermore, compare the benefits and drawbacks of the refactored code to the original script.
+Refactoring a Microsoft Excel VBA code to gather specific stock information in 2017 and 2018 and assess whether the stocks are worthwhile to invest in was the goal of this project. This procedure was earlier performed in a similar fashion; however, the purpose for this was to improve the original code's efficiency. Furthermore, compare the benefits and drawbacks of the refactored code to the original script.
 
 #### Results
 Two charts containing stock information on 12 distinct stocks are shown in the data. This data reveal the ticker, the annualized daily volume, and the profit it returned.
@@ -103,3 +103,24 @@ Using all of the information from Module 2, we are challenged to illustrate what
 
 ```
 
+### Refactored Code Run-Time 2017
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/105666905/175199724-1273d8f2-73cb-4559-accd-da980c357f1c.png)
+
+
+### Refactored Code Run-Time 2018
+
+
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/105666905/175199793-d6642eb6-1f46-4118-8267-c40d36be8948.png)
+
+
+# Summary
+
+**Advantages of Refactoring Code**
+The benefits of refactoring code are that we can simplify long code that we did not have time to refine as thoroughly. Code that is more efficient wastes less data and is easier to read. We can see that the elapsed time is far shorter, verifying this. A programmer can detect duplicated subroutines, redundant loops, redundant instructions, or code that was used to debug a mistake but was inadvertently left in the script.
+
+**Disadvantages of Refactoring Code**
+The main disadvantage is that the original code is more linear than the refactored code and hence simpler to follow for someone unfamiliar with the language. Refactoring code can be time intensive and may occasionally deviate from the original purpose of the code.
+
+**The advantages and disadvantages of our original to refactored code**
+The most significant effect of the refactoring was a lowering in macro execution time.Reducing the number of loops reduces the memory required for data processing, which saves run time and enhances script performance.
