@@ -117,10 +117,13 @@ Using all of the information from Module 2, we are challenged to illustrate what
 # Summary
 
 **Advantages of Refactoring Code**
+
 The benefits of refactoring code are that we can simplify long code that we did not have time to refine as thoroughly. Code that is more efficient wastes less data and is easier to read. We can see that the elapsed time is far shorter, verifying this. A programmer can detect duplicated subroutines, redundant loops, redundant instructions, or code that was used to debug a mistake but was inadvertently left in the script.
 
 **Disadvantages of Refactoring Code**
+
 The main disadvantage is that the original code is more linear than the refactored code and hence simpler to follow for someone unfamiliar with the language. Refactoring code can be time intensive and may occasionally deviate from the original purpose of the code.
 
-**The advantages and disadvantages of our original to refactored code**
+**The Advantages and Disadvantages of Our Original to Refactored Code**
+
 The most significant effect of the refactoring was a lowering in macro execution time.Reducing the number of loops reduces the memory required for data processing, which saves run time and enhances script performance.
